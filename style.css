@@ -10,9 +10,11 @@
 
 
 h1{
-    font-size: 16px;
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
     margin-bottom: 50px;
-    font-weight: 200;
+    font-weight:200;
+    text-align: center;
 
 }
 
@@ -20,18 +22,41 @@ h1{
 
 
 h3{
-    font-size: 14px;
-    text-align: center;
+    font-family: 'Martel', serif;
+    font-size: 1.2rem;
+    text-align: left;
     font-weight: 200;
+    position:relative;
+    display: grid;
 }
 
-
+a{
+    font-family: 'Martel', serif;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 200;
+    text-decoration: underline ;
+}
 
 
 /*@media (min-width: 768px){*/
 
+
+    .text-columns{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        margin: 0 auto;
+        margin-left:0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+
     .column{
         margin: 0px;
+        margin-bottom: 50px;
         background-color: transparent;
         text-align: center;
         padding: 0px;
@@ -46,14 +71,22 @@ h3{
         margin-left:0;
     }
 
+    .content h1{
+        margin-top: 60px;
+    
+    }
+
+
     h2{
+        font-family: 'Secular One', sans-serif;
         display: block;
         margin: 0;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .logo {
         margin:0 ;
+        padding: 20px;
         text-align: center;
         display: block ;
     }
@@ -66,33 +99,81 @@ h3{
     
     .menu{
         margin: 0 auto;
+        padding: 10px;
         display: grid;
         grid-template-columns: repeat(3, 33%); 
 
         
     }
     .menu a {
+        font-family: 'Martel', serif;
         text-decoration: none; 
         color: black;
-        font-size: 8px;
-        letter-spacing: 3px;
+        font-size: 1rem;
+        letter-spacing: .1rem;
         padding: 1rem;
-       
+        text-align: center;
+         }
 
-    }
+    .submenu {
+            margin-top: 30px;
+            width:100%;
+            background-color: white;
+            text-decoration: none; 
+        color: black;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-align: center;
+       }
+
+   .submenu a {
+    font-family: 'Martel', serif;
+    text-decoration: none;
+
+}
+
+
+
+
+
 
     img{
         width: 100%;
         margin: 0 auto;
         padding-top: 2rem;
     }
+
+    p{
+        font-family: 'Martel', serif;
+        font-style: italic;
+        font-size: 1rem;
+        text-align: center;
+    }
         
 
 @media screen and (min-width:1024px){
+    a{
+        font-family: 'Martel', serif;
+        font-size: .9rem;
+        text-align: left;
+        font-weight: 200;
+        text-decoration: underline ;
+    }
+    
+
+
+    .text-columns{
+        padding: 0;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        
+    }
 
 .column{
     margin-left: 80px;
     margin-top: 0px;
+    margin-bottom: 50px;
     background-color: transparent;
     text-align: center;
     padding: 10px;
@@ -100,9 +181,25 @@ h3{
     
 }
 
+.contacto{
+    
+    margin-top: 80px;
+   text-align: center;
+    
+    
+}
+
+
 h2{
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
+}
+
+h3{
+    font-size: .9rem;
+    text-align: center;
+    font-weight: 200;
+    text-align: left;
 }
 
 
@@ -120,13 +217,11 @@ h2{
 
 .menu{
     margin-top: 45px;
+    padding: 0px;
     width:100%;
     background-color: white;
     display: block;
-    
-
-    
-}
+    }
 
 #logo{
     color:black;
@@ -135,13 +230,15 @@ h2{
     padding: 15px;
 }
 
+
+
 .menu a {
     text-decoration: none; 
     color: black;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: .9rem;
     display: grid;
     padding: 5px;
+    text-align: left;
    /* width: max-content;*/
 }
 
@@ -156,10 +253,17 @@ p{
     text-align: center;
 }
 
-.submenu {
-    margin-top: 30px;
-    width:100%;
-    background-color: white;
+.submenu  {
+    padding: 0px;
+     
+ }
+
+.submenu a {
+   display: block;
+   font-size: .9rem;
+   text-align: left;
+   
+   padding: 5px;
     
 }
 
@@ -178,7 +282,7 @@ p{
 
 
 .content h1{
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
