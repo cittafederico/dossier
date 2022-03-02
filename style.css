@@ -11,7 +11,7 @@
 
 h1{
     font-family: 'Martel', serif;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-bottom: 50px;
     font-weight:200;
     text-align: center;
@@ -23,7 +23,7 @@ h1{
 
 h3{
     font-family: 'Martel', serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: left;
     font-weight: 200;
     position:relative;
@@ -81,11 +81,12 @@ a{
         font-family: 'Secular One', sans-serif;
         display: block;
         margin: 0;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
     .logo {
         margin:0 ;
+        margin-top: 100px;
         padding: 20px;
         text-align: center;
         display: block ;
@@ -99,9 +100,11 @@ a{
     
     .menu{
         margin: 0 auto;
+        margin-top: 100px;
         padding: 10px;
         display: grid;
         grid-template-columns: repeat(3, 33%); 
+        border-top: thin solid;
 
         
     }
@@ -109,9 +112,9 @@ a{
         font-family: 'Martel', serif;
         text-decoration: none; 
         color: black;
-        font-size: 1rem;
+        font-size: 2rem;
         letter-spacing: .1rem;
-        padding: 1rem;
+        padding: 2rem;
         text-align: center;
          }
 
@@ -121,14 +124,17 @@ a{
             background-color: white;
             text-decoration: none; 
         color: black;
-        font-size: 1rem;
+        margin-bottom: 100px;
         letter-spacing: 2px;
         text-align: center;
+        border-top: thin solid;
+        border-bottom: thin solid;
        }
 
    .submenu a {
     font-family: 'Martel', serif;
     text-decoration: none;
+    font-size: 2rem;
 
 }
 
@@ -146,7 +152,7 @@ a{
     p{
         font-family: 'Martel', serif;
         font-style: italic;
-        font-size: 1rem;
+        font-size: 1.8rem;
         text-align: center;
     }
         
@@ -189,6 +195,11 @@ a{
     
 }
 
+h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
 
 h2{
     font-size: 1rem;
@@ -204,6 +215,7 @@ h3{
 
 
 .logo {
+    margin-top: 0;
     padding: 30px;
     text-align: center;
 }
@@ -221,6 +233,7 @@ h3{
     width:100%;
     background-color: white;
     display: block;
+    border-top: none;
     }
 
 #logo{
