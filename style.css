@@ -78,9 +78,10 @@ a{
 
 
     h2{
-        font-family: 'Secular One', sans-serif;
+        font-family: sans-serif;
         display: block;
         margin: 0;
+        font-weight: bold;
         font-size: 32px;
     }
     
