@@ -23,7 +23,7 @@ h1{
 
 h3{
     font-family: 'Martel', serif;
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     font-weight: 200;
     position:relative;
@@ -87,7 +87,7 @@ a{
     
     .logo {
         margin:0 ;
-        margin-top: 100px;
+        margin-top: 20px;
         padding: 20px;
         text-align: center;
         display: block ;
@@ -101,7 +101,7 @@ a{
     
     .menu{
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 20px;
         padding: 10px;
         display: grid;
         grid-template-columns: repeat(3, 33%); 
@@ -115,17 +115,16 @@ a{
         color: black;
         font-size: 14px;
         letter-spacing: .1rem;
-        padding: 2rem;
         text-align: center;
+        padding-top: 10px;
          }
 
     .submenu {
-            margin-top: 30px;
             width:100%;
             background-color: white;
             text-decoration: none; 
         color: black;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         letter-spacing: 2px;
         text-align: center;
         border-top: thin solid;
@@ -135,7 +134,7 @@ a{
    .submenu a {
     font-family: 'Martel', serif;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 18px;
 
 }
 
@@ -154,7 +153,7 @@ a{
         font-family: 'Martel', serif;
         font-style: italic;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         padding: 3px;
     }
         
@@ -198,6 +197,7 @@ a{
 h1{
     font-size: 21px;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 
@@ -207,6 +207,7 @@ h2{
 }
 
 h3{
+   
     font-size: 14px;
     text-align: center;
     font-weight: 200;
@@ -215,7 +216,7 @@ h3{
 
 
 .logo {
-    margin-top: 0;
+    margin-top: 50px;
     padding: 30px;
     text-align: center;
 }
@@ -263,6 +264,7 @@ h3{
 
 .submenu  {
     padding: 0px;
+    margin-top: 50px;
      
  }
 
@@ -276,6 +278,7 @@ h3{
 
 
 .content{
+    margin-top: 50px;
     margin-left: 300px;
    }
 
