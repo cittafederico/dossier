@@ -23,7 +23,7 @@ h1{
 
 h3{
     font-family: 'Martel', serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
     font-weight: 200;
     position:relative;
@@ -152,8 +152,8 @@ a{
     p{
         font-family: 'Martel', serif;
         font-style: italic;
-        font-size: 1.8rem;
         text-align: center;
+        font-size: 1.5rem;
     }
         
 
@@ -261,9 +261,7 @@ h3{
 }
 
 p{
-    font-style: italic;
-    font-size: 12px;
-    text-align: center;
+    font-size: 14px;
 }
 
 .submenu  {
