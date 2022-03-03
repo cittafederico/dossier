@@ -11,9 +11,9 @@
 
 h1{
     font-family: 'Martel', serif;
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 50px;
-    font-weight:200;
+    font-weight:800;
     text-align: center;
 
 }
@@ -23,7 +23,7 @@ h1{
 
 h3{
     font-family: 'Martel', serif;
-    font-size: 1rem;
+    font-size: 16px;
     text-align: left;
     font-weight: 200;
     position:relative;
@@ -32,7 +32,7 @@ h3{
 
 a{
     font-family: 'Martel', serif;
-    font-size: 1rem;
+    font-size: 18px;
     text-align: left;
     font-weight: 200;
     text-decoration: underline ;
@@ -81,7 +81,7 @@ a{
         font-family: 'Secular One', sans-serif;
         display: block;
         margin: 0;
-        font-size: 2rem;
+        font-size: 32px;
     }
     
     .logo {
@@ -112,7 +112,7 @@ a{
         font-family: 'Martel', serif;
         text-decoration: none; 
         color: black;
-        font-size: 1rem;
+        font-size: 21px;
         letter-spacing: .1rem;
         padding: 2rem;
         text-align: center;
@@ -134,7 +134,7 @@ a{
    .submenu a {
     font-family: 'Martel', serif;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 21px;
 
 }
 
@@ -153,7 +153,7 @@ a{
         font-family: 'Martel', serif;
         font-style: italic;
         text-align: center;
-        font-size: .8rem;
+        font-size: 16px;
         padding: 3px;
     }
         
