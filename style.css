@@ -11,9 +11,9 @@
 
 h1{
     font-family: 'Martel', serif;
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 50px;
-    font-weight:800;
+    /*font-weight:800;*/
     text-align: center;
 
 }
@@ -78,7 +78,8 @@ a{
 
 
     h2{
-        font-family: sans-serif;
+        font-family: 'Martel', serif;
+        /*font-family: sans-serif;*/
         display: block;
         margin: 0;
         font-weight: bold;
@@ -119,6 +120,9 @@ a{
         padding-top: 10px;
          }
 
+         .line{
+            border-bottom: thin solid;
+         }
     .submenu {
             width:100%;
             background-color: white;
@@ -127,15 +131,16 @@ a{
         margin-bottom: 20px;
         letter-spacing: 2px;
         text-align: center;
-        border-top: thin solid;
-        border-bottom: thin solid;
+        margin-top: 50px;
+       /*border-top: thin solid;
+         border-bottom: thin solid;*/
        }
 
    .submenu a {
     font-family: 'Martel', serif;
     text-decoration: none;
     font-size: 18px;
-
+   
 }
 
 
@@ -159,6 +164,16 @@ a{
         
 
 @media screen and (min-width:1024px){
+
+    .logo {
+        
+        text-align: justify;
+    }
+
+
+   
+
+
     a{
         font-family: 'Martel', serif;
         text-align: left;
@@ -187,15 +202,17 @@ a{
 }
 
 .contacto{
-    
+    font-family: 'Martel', serif;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
     margin-top: 80px;
-   text-align: center;
     
     
 }
 
 h1{
-    font-size: 21px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 70px;
 }
@@ -203,7 +220,7 @@ h1{
 
 h2{
     font-size: 16px;
-    text-align: center;
+    text-align: ;
 }
 
 h3{
@@ -229,7 +246,7 @@ h3{
 }
 
 .menu{
-    margin-top: 45px;
+    margin-top: 40px;
     padding: 0px;
     width:100%;
     background-color: white;
@@ -247,7 +264,7 @@ h3{
 
 
 .menu a {
-    text-decoration: none; 
+    /*text-decoration: none; */
     color: black;
     font-size: 14px;
     display: grid;
@@ -264,7 +281,8 @@ h3{
 
 .submenu  {
     padding: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
+    /*margin-top: 50px;*/
      
  }
 
@@ -273,20 +291,20 @@ h3{
    font-size: 14px;
    text-align: left;
    padding: 5px;
-    
+   
 }
 
 
 .content{
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-top: 58px;
+    margin-left: 350px;
    }
 
 
 
 
 .content{
-    width: 800px;
+    width: 1024px;
     
 }
 
